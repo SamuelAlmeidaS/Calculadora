@@ -4,43 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
+    
     <link rel="stylesheet" href="style.css">
     <title>Calculadora</title>
 </head>
 <body>
     <div class="container"> 
-            <input type="number" class="input-number">
+            <p id="input"></p><br><br>
             <table>
                 <tr>
-                    <td><button class="operations">+</button></td>
-                    <td><button class="operations">-</button></td>
-                    <td><button class="operations">*</button></td>
-                    <td><button class="clear">c</button></td>
+                    <td><button class="operations" onClick="insert('+')">+</button></td>
+                    <td><button class="operations" onClick="insert('-')">-</button></td>
+                    <td><button class="operations" onClick="insert('*')">*</button></td>
+                    <td><button class="clear" onclick="clean()">c</button></td>
                 </tr>
                 <tr>
-                    <td><button class="number">1</button></td>
-                    <td><button class="number">2</button></td>
-                    <td><button class="number">3</button></td>
+                    <td><button class="number" onClick="insert('1')">1</button></td>
+                    <td><button class="number" onClick="insert('2')">2</button></td>
+                    <td><button class="number" onClick="insert('3')">3</button></td>
                     <td><button class="operations-division">/</button></td>
                 </tr>
                 <tr>
-                    <td><button class="number">4</button></td>
-                    <td><button class="number">5</button></td>
-                    <td><button class="number">6</button></td>
-                    <td><button class="operations-por">%</button></td>
+                    <td><button class="number" onClick="insert('4')">4</button></td>
+                    <td><button class="number" onClick="insert('5')">5</button></td>
+                    <td><button class="number" onClick="insert('6')">6</button></td>
+                    <td><button class="operations-por" onClick="insert('%')">%</button></td>
                 </tr>
                 <tr>
-                    <td><button class="number">7</button></td>
-                    <td><button class="number">8</button></td>
-                    <td><button class="number">9</button></td>
-                    <td><button class="number">0</button></td>
+                    <td><button class="number" onClick="insert('7')">7</button></td>
+                    <td><button class="number" onClick="insert('8')">8</button></td>
+                    <td><button class="number" onClick="insert('9')">9</button></td>
+                    <td><button class="number" onClick="insert('0')">0</button></td>
                 </tr>
                 <tr>
                     <td colspan="4"><button class="submit">=</button></td>
                 </tr>
             </table>
     </div>
+    <script src="./script.js" > 
     
+    </script>
+   
 </body>
 </html>
