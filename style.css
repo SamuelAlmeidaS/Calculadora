@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.6587009803921569) 35%, 
+    rgba(0,212,255,0.8407738095238095) 100%);
+}
+
+.input-number {
+    border-radius: 5px;
+    padding: 10px 15px 10px 25px;
+}
+.container{
+
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 15px 15px;
+    border-radius: 5px;
+    padding: 20px 70px 20px 15px;
+    margin: 120px 560px 30px 560px;
+    border: 1px red solid;
+    background:radial-gradient(circle, rgba(89,103,175,1) 0%, rgba(162,185,246,1) 100%);
+         
+}
+
+table {
+   margin: 0 70px 0 0 ;
+}
+table tr td button {
+    padding: 15px;
+}
+
+table tr td {
+    width: 100%;
+    height: 100%;
+}
+
+.submit {
+    border-radius: 5px;
+    background: rgba(47, 194, 47, 0.795);
+    width: 100%;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.submit:hover {
+    background: rgba(47, 194, 47, 0.60);
+    transition: all 100ms ease-in-out;
+}
+
+.operations-division {
+    border-radius: 5px;
+    padding: 18px  25px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.operations-por {
+    border-radius: 5px;
+    width: 100%;
+    padding: 18px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.clear {
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    background: rgba(253, 68, 1, 0.80);
+}
+
+.clear:hover {
+    background: rgba(253, 68, 1, 0.98);
+    transition: all 100ms ease-in-out;
+}
+
+.operations {
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.number {
+    border-radius: 5px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+}
